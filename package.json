@@ -1,7 +1,7 @@
 {
   "name": "arkaneswap",
   "version": "0.0.1",
-  "private": true,
+  "description": "ArkaneSwap beta",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
