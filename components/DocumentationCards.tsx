@@ -5,7 +5,7 @@ import { BsBook, BsInfoCircle } from 'react-icons/bs'
 export default function DocumentationCards() {
   return (
     <div className={styles.grid}>
-      <a href="https://docs.uniswap.org/" className={styles.card}>
+      <a href="https://docs.thearkane.space/" className={styles.card}>
         <div className={styles.row}>
           <BsBook />↗
         </div>
@@ -24,7 +24,7 @@ export default function DocumentationCards() {
         </div>
       </a>
 
-      <a href="https://discord.gg/ybKVQUWb4s" className={styles.card + ' ' + styles.external}>
+      <a href="https://discord.gg/abZD7hGaAX" className={styles.card + ' ' + styles.external}>
         <div className={styles.row}>
           <FaDiscord className={styles.logo} fill="#8c9eff" />
           <div className={styles.column}>
