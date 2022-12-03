@@ -1,5 +1,5 @@
 import styles from '../styles/Cards.module.css'
-import { FaGithub, FaDiscord, FaInstagram } from 'react-icons/fa'
+import { FaGithub, FaDiscord, FaInstagram, FaSeedling } from 'react-icons/fa'
 import { BsBook, BsInfoCircle } from 'react-icons/bs'
 
 export default function DocumentationCards() {
@@ -14,12 +14,13 @@ export default function DocumentationCards() {
       </a>
 
 
-      <a href="https://instagram.com/thearkane.space" className={styles.card + ' ' + styles.external}>
+
+      <a href="https://buy.thearkane.space" className={styles.card + ' ' + styles.external}>
         <div className={styles.row}>
-          <FaInstagram className={styles.logo} fill="#8c9eff" />
+          <FaSeedling className={styles.logo} fill="#8c9eff" />
           <div className={styles.column}>
-            <h3>Instagram</h3>
-            <p>Follow our instagram for more information.</p>
+            <h3>buyARKANE</h3>
+            <p>You can invest in us.</p>
           </div>
         </div>
       </a>
@@ -47,5 +48,6 @@ export default function DocumentationCards() {
         </div>
       </a>
     </div>
+    
   )
 }
