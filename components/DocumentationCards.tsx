@@ -19,7 +19,7 @@ export default function DocumentationCards() {
         <div className={styles.row}>
           <FaSeedling className={styles.logo} fill="#8c9eff" />
           <div className={styles.column}>
-            <h3>buyARKANE</h3>
+            <h3>buy ARKANE</h3>
             <p>You can invest in us.</p>
           </div>
         </div>
